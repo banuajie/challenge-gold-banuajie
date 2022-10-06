@@ -3,6 +3,9 @@
 /* ===== CSS Hero Section ===== */
 
 /* ===== CSS Our Services ===== */
+.services-text > ul {
+    list-style-image: url("../images/img_list.png");
+}
 
 /* ===== CSS Why Us ===== */
 
