@@ -16,6 +16,124 @@
 /* ===== CSS Why Us ===== */
 
 /* ===== CSS Testimony ===== */
+.testimony {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px 10px 0px;
+}
+
+.testimony-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimony-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    width: 100%;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.testimony-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f1f3ff;
+    border-radius: 10px;
+
+    padding: 20px;
+    gap: 30px;
+}
+
+.testimony-item-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f1f3ff;
+    border-radius: 10px;
+
+    padding: 20px;
+    gap: 30px;
+}
+
+.testimony-navigated {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    padding: 20px;
+}
+
+.button-previous {
+    width: 32px;
+    height: 32px;
+
+    background-image: url("../images/btn_left.png");
+    border: none;
+    border-radius: 50%;
+}
+
+.button-previous:hover {
+    background-image: url("../images/btn_left_hover.png");
+}
+
+.button-next {
+    width: 32px;
+    height: 32px;
+
+    background-image: url("../images/btn_right.png");
+    border: none;
+    border-radius: 50%;
+}
+
+.button-next:hover {
+    background-image: url("../images/btn_right_hover.png");
+}
+
+@media screen and (max-width: 1199px) {
+    .testimony-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimony-item {
+        width: 619px;
+        height: auto;
+    }
+
+    .testimony-item-side {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .testimony-item {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .testimony-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .testimony-content > img {
+        align-self: center;
+        width: 80px;
+        height: 18px;
+        margin-bottom: 20px;
+    }
+}
 
 /* ===== CSS CTA Banner ===== */
 
