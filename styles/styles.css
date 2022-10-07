@@ -9,6 +9,10 @@
 /* ===== CSS Testimony ===== */
 
 /* ===== CSS CTA Banner ===== */
+.cta-content {
+    background-color: #0d28a6;
+    border-radius: 10px;
+}
 
 /* ===== CSS FAQ ===== */
 
