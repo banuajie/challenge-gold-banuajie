@@ -3,6 +3,10 @@
 /* ===== CSS Hero Section ===== */
 
 /* ===== CSS Our Services ===== */
+.our-services {
+    padding-top: 60px;
+}
+
 .services-text > ul {
     list-style-image: url("../images/img_list.png");
 }
